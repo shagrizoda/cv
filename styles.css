@@ -188,11 +188,11 @@ button:hover
   {
     font-size: 1.5rem;
      }
-  
-  h2,h3,p,table
+  p
   {
-    margin-left:2%;
-     }
+    margin-right:3%;
+  }
+
   
   table
   {
@@ -204,7 +204,7 @@ button:hover
   {
     float:left;
     width: 35%;
-    height: 155px;
+    height: 150px;
     border-radius: 50%;
     margin-right:2% 5%;
     }
