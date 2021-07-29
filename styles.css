@@ -4,38 +4,43 @@ text-align: center;
 display: inline-block;
 margin:0 auto;
 }
+
 h1
 {
   font-family: "Arizonia",sans-serif;
   font-size: 6rem;
   margin: 10% auto 3%;
-
   display: inline-block;
   color:#FFF5AB;
 }
+
 h2
 {
   font-family:"Vidaloka",serif;
   font-size: 2.5rem;
   color: #7952B3;
 }
+
 h3
 {
   font-family:"Amiri",sans-serif;
   color:#AC66CC;
   font-size: 1.9rem;
 }
+
 p,table
 {
   font-family:"Amiri",sans-serif;
   font-size: 1.6rem;
   color:#21094E;
 }
+
 table
 {
   table-layout:auto;
   width:19%;
 }
+
 hr
 {
   border: none;
@@ -43,6 +48,7 @@ hr
   width:8%;
   margin:5% auto;
 }
+
 button
 {
   width:15%;
@@ -54,32 +60,38 @@ button
   background-color:#B4AEE8;
   border: none;
 }
+
 button:hover
 {
   background-color: #C490E4;
 }
+
 .top-text
 {
   color:#FDFAF6;
   font-size:1.8rem;
 }
+
 .pinkStarImg
 { width:4%;
   height: 4%;
   max-width: 100%;
 }
+
 .top-container
 {
   background-color: #B4AEE8;
   padding: 5%;
 
 }
+
 .skill-row
 {
   float:right;
   text-align: left;
   margin:5% 5%;
 }
+
 .screenImg
 {
   float:left;
@@ -88,12 +100,14 @@ button:hover
   border-radius: 50%;
   margin-right:5%;
 }
+
 .languages
 {
   text-align: left;
   float:left;
   margin:5% 5%;
 }
+
 .talkImg
 {
   float:right;
@@ -102,20 +116,24 @@ button:hover
   border-radius: 50%;
   margin:3% 5%;
 }
+
 .bottom-container
 {
   background-color: #B4AEE8;
   height: 100px;
 }
+
 .contact-me
 {
   margin:5% 15%;
 }
+
 .btn
 {
   color:white;
   text-decoration: none;
 }
+
 #profileImg
 {
   position: relative;
@@ -125,89 +143,104 @@ button:hover
   top:32px;
   margin:3% auto;
 }
+
 #topStarRight
 {
   position:relative;
   left: 20%;
 }
+
 #topStarLeft
 {
   position:relative;
   right: 20%;
 }
+
 #middleStarLeft
 {
   position:relative;
   right:15%;
 }
+
 #middleStarRight
 {
   position: relative;
   left:15%;
 }
+
 #copyright
 {
   color:white;
   font-size:1.1rem;
 }
+
+
 @media(max-width:768px)
 {
-  /* body{
-    margin:0 0;
-  } */
-  h1{
+ h1
+  {
     font-size:3rem;
     padding: 0 15%;
     text-align: center;
      }
-  .top-text,p{font-size: 1.5rem;}
-
-
-
-
-table
-{
-  table-layout:auto;
-  width:100%;
-}
-.screenImg
-{
-  float:left;
-  width: 35%;
-  height: 155px;
-  border-radius: 50%;
-  margin-right:2% 5%;
-}
-.skill-row
-{
-  float:right;
-  text-align: left;
-  margin:5% 5%;
-}
-.talkImg
-{
-  float:right;
-  width: 45%;
-  height: 150px;
-  border-radius: 50%;
-  margin:3% 5%;
-}
-button
-{
-  width:40%;
-  height:60px;
-  font-size: 1rem;
-}
-#middleStarLeft
-{
-  position:relative;
-  right:35%;
-
-
-}
-#middleStarRight
-{
-  position: relative;
-  left:35%;
-}
+  
+  .top-text,p
+  {
+    font-size: 1.5rem;
+     }
+  
+  h2,h3,p,table
+  {
+    margin-left:2%;
+     }
+  
+  table
+  {
+    table-layout:auto;
+    width:100%;
+   }
+  
+  .screenImg
+  {
+    float:left;
+    width: 35%;
+    height: 155px;
+    border-radius: 50%;
+    margin-right:2% 5%;
+    }
+  
+  .skill-row
+  {
+    float:right;
+    text-align: left;
+    margin:5% 5%;
+    }
+  
+  .talkImg
+  {
+    float:right;
+    width: 45%;
+    height: 150px;
+    border-radius: 50%;
+    margin:3% 5%;
+    }
+  
+  button
+  {
+    width:40%;
+    height:60px;
+    font-size: 1rem;
+    }
+  
+  #middleStarLeft
+  {
+    position:relative;
+    right:35%;
+    }
+  
+  #middleStarRight
+  {
+    position: relative;
+    left:35%;
+    }
 }
